@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --black-900: #000;
+  --black-800: #272727;
+  --black-400: #7a7a7a;
+
+  --primary: #25343f;
+
+  --border-radius-md: 20px;
+
+  --box-shadow-md: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input:focus {
+  outline: none;
+}
+
+.transition {
+  transition: all 0.3s ease;
+}

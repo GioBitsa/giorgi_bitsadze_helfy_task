@@ -1,0 +1,35 @@
+.wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 111;
+  overflow-y: auto;
+  display: flex;
+  padding: 90px 0;
+  transition: all 0.3s;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  z-index: 111;
+  position: relative;
+}
+
+.backdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 110;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.children {
+  background: #ffffff;
+  width: 100%;
+  border-radius: 20px;
+}

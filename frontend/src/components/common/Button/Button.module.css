@@ -1,0 +1,23 @@
+.wrapper {
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  width: fit-content;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--primary);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.wrapper:hover {
+  background-color: var(--primary);
+  color: var(--white);
+  opacity: 0.8;
+}
+
+.wrapper.secondary {
+  background-color: var(--white);
+  color: var(--primary);
+}

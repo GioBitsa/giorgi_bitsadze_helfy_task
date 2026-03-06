@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--primary);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filter:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.filter.active {
+  background-color: var(--primary);
+  color: var(--white);
+}
